@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="be34-cd38-7eb3-bd4e" name="Adeptus Mechanicus" gameSystemId="sys-35ad-fb80-6319-8fb2" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Skitarri rangers" hidden="false" id="c691-4f1c-7685-5ff3" defaultAmount="">
+      <categoryLinks>
+        <categoryLink targetId="Battleline" id="0575-bdc8-286c-736e" primary="true" name="Battleline"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ranger" hidden="false" id="e44c-cf3a-d650-b2de">
+          <costs>
+            <cost name="points" typeId="46e4-8861-2760-8258" value="10"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="Battleline" id="774a-f740-49fb-9a93" primary="true" name="Battleline"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Rangers" id="2773-3fab-40e1-fcbb" hidden="false" type="profile" targetId="5fd4-56e1-ebd8-83f9"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="46e4-8861-2760-8258" value="50"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Rangers" typeId="d474-0c7d-7f5b-3e3e" typeName="unit stat" hidden="false" id="5fd4-56e1-ebd8-83f9">
+      <characteristics>
+        <characteristic name="M" typeId="e229-3d68-5bb3-2ffd">6&quot;</characteristic>
+        <characteristic name="T" typeId="d9c7-069b-b14d-c76d">3</characteristic>
+        <characteristic name="W" typeId="2d11-3a1c-7db5-6515">1</characteristic>
+        <characteristic name="Sv" typeId="4690-c75a-be39-254e">4+</characteristic>
+        <characteristic name="Ld" typeId="8d40-e4f1-36c5-28d5">7+</characteristic>
+        <characteristic name="Invl" typeId="1425-540b-30e4-9c91">5+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Skitarri rangers" hidden="false" id="4192-e6f6-e3ef-e29c" type="selectionEntry" targetId="c691-4f1c-7685-5ff3">
+      <categoryLinks>
+        <categoryLink targetId="Battleline" id="5610-9143-e6fa-d26f" primary="true" name="Battleline"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
